@@ -1,0 +1,3 @@
+multi-rake
+nltk
+spacy==2.2.3
