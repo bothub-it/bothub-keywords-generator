@@ -51,7 +51,7 @@ class KeywordsGenerator:
             min_chars=2,
             max_words=1,
             min_freq=1,
-            language_code='pt',
+            language_code=self.lang,
             stopwords=self.stopwords,  # {'and', 'of'}
             lang_detect_threshold=50,
             max_words_unknown_lang=2,
